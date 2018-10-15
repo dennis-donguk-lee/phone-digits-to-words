@@ -14,4 +14,36 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="phone2word-files\driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="phone2word-files\phone2word.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="phone2word-files\phone2word.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="phone2word-files\handout.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="phone2word-files\out2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="phone2word-files\out3">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="phone2word-files\out0">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="phone2word-files\out1">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>

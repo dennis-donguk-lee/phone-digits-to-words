@@ -115,6 +115,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="phone2word-files\driver.cpp" />
+    <ClCompile Include="phone2word-files\phone2word.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="phone2word-files\phone2word.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="phone2word-files\handout.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="phone2word-files\out0" />
+    <None Include="phone2word-files\out1" />
+    <None Include="phone2word-files\out2" />
+    <None Include="phone2word-files\out3" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
