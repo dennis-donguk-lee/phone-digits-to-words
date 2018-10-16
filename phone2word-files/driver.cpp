@@ -99,7 +99,8 @@ int main(int argc, char** argv)
 	//	}
 	//}
 
-  test0();
+  test3();
+  //std::getchar();
 
 	return 0;
 }
